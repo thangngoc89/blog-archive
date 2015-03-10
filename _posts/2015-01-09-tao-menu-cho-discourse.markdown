@@ -3,11 +3,15 @@ layout: post
 title: Tạo menu cho Discourse
 date: 2015-01-09 00:10:59.000000000 -05:00
 ---
+
 ##Giới thiệu
+
 Có nhiều bạn hỏi mình về cái menu Discourse của mình. Hôm nay mình sẽ chia sẽ code với các bạn. 
 Menu sẽ tự động ản khi bạn trượt xuống nên yên tâm là sẽ không tốn quá nhiều diện tích.
 Demo : [Hỏi Đáp Y Học](http://ask.hoidapyhoc.com)
+
 ##Tiến hành
+
 Với công cụ tích hợp của Discourse thì việc sửa/ thêm style trở nên rất đơn giản.
 
 1. Vào Admin Dashboard
@@ -53,7 +57,7 @@ ul#top-navbar-links {
 Ở `Header` và `Header Mobile`
 Các bạn nhớ chỉnh lại link cho phù hợp. Muốn dụng icon các bạn có thể xem [Font AweSome](http://fortawesome.github.io/Font-Awesome/icons/) (tích hợp sẵn trong Discourse)
 
-```markup
+```html
 <div id="top-navbar" class="container">
 <ul id="top-navbar-links">
   <li><a href="http://hoidapyhoc.com/">Trang chủ</a></li>
