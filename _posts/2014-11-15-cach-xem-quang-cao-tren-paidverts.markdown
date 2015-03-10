@@ -1,29 +1,28 @@
 ---
-layout: post
+layout: page
 title: Cách xem quảng cáo trên Paidverts
 date: 2014-11-15 17:24:03.000000000 -05:00
+permalink: /cach-xem-quang-cao-tren-paidverts
 ---
 
-Trong bài trước mình đã G[iới thiệu cơ bản về PaidVerts ](http://khoanguyen.me/paidverts-ptc/ "PaidVerts – Kiếm từ $1-10/ngày"). Trong bài này mình sẽ tiếp tục hướng dẫn cách xem quảng cáo trên PaidVerts.
+Trong bài trước mình đã [Giới thiệu cơ bản về PaidVerts](http://khoanguyen.me/paidverts-ptc/ "PaidVerts – Kiếm từ $1-10/ngày"). Trong bài này mình sẽ tiếp tục hướng dẫn cách xem quảng cáo trên PaidVerts.
 
 # Hướng dẫn xem quảng cáo trên PaidVerts
 
 - Truy cập vào [https://www.paidverts.com/member/paid_ads.html](https://www.paidverts.com/member/paid_ads.html) hoặc các bạn có thể nhấn **Paid Ads** ở thanh menu bên phải
 
-[![paidverts view ads](http://khoanguyen.me/wp-content/uploads/2015/01/paidverts-view-ads_hxouya.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/paidverts-view-ads_hxouya.jpg)
+![paidverts view ads](http://khoanguyen.me/wp-content/uploads/2015/01/paidverts-view-ads_hxouya.jpg)
 
-- Chọn 1 ads bất kì, nhấn vào **View Ad **hoặc là **View Bonus Ad**
+- Chọn 1 ads bất kì, nhấn vào **View Ad** hoặc là **View Bonus Ad**
 
-[![paidverts-view1](http://khoanguyen.me/wp-content/uploads/2015/01/paidverts-view1_d8wlvl.jpg)](http://khoanguyen.me/wp-content/uploads/2014/11/paidverts-view1.jpg)
-
- 
+![paidverts-view1](http://khoanguyen.me/wp-content/uploads/2015/01/paidverts-view1_d8wlvl.jpg)
 
 - Copy 3 dòng chữ màu xanh xuống phía dưới (cái này là thông tin mà nhà quảng cáo muốn gửi tới bạn  
 [![paidverts-view2](http://khoanguyen.me/wp-content/uploads/2015/01/paidverts-view2-3_u0xzde.jpg)](http://khoanguyen.me/wp-content/uploads/2014/11/paidverts-view2-3.jpg)
 - Nhấn **Process to advetisers Website**
 - Nhập CAPTCHA và chờ đếm ngược
 
-[![paidverts-view2](http://khoanguyen.me/wp-content/uploads/2015/01/paidverts-view2_lsf0gk.jpg)](http://khoanguyen.me/wp-content/uploads/2014/11/paidverts-view2.jpg)
+![paidverts-view2](http://khoanguyen.me/wp-content/uploads/2014/11/paidverts-view2.jpg)
 
 - Nhấm nút **Confirm **khi nó xuất hiện
 
