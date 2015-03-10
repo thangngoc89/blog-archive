@@ -129,7 +129,7 @@ echo $slugify->slugify('Hello World!'); // hello-world
 
 Việc cập nhật rất đơn giản, bạn chỉ cần gõ `composer update` , Composer sẽ tự động cập nhật các package cho bạn. Nếu muốn cập nhật lên các phiên bản mới hơn hoặc các bản release, hãy chỉnh sửa file `composer.json`
 
-**Chú ý: Không bao giờ chạy lệnh `composer update ` trong môi trường thực tế (production) mà hãy kiểm tra trên máy để tránh tình trạng không tương thích.**
+**Chú ý: Không bao giờ chạy lệnh** `composer update ` **trong môi trường thực tế (production) mà hãy kiểm tra trên máy để tránh tình trạng không tương thích.**
 
 
 # Kết luận:
