@@ -13,7 +13,7 @@ Cách quản lí này không phải là mới, thực tế thì Composer lấy �
 
 > Có thể bạn biến đến  [PEAR](http://pear.php.net/). Nó cũng có chức năng quản lí các gói code cho PHP từ nhiều năm trước. Nhưng đã bị các lập trình viên từ chối sử dụng vì nhiều lí do. Đầu tiên là hầu hết các gói code trong PEAR đều cũ và không được cập nhật thường xuyên. Thứ hai, PEAR quản lí các gói code trên toàn hệ thống. Nói một cách dễ hiểu thì bạn có 1 project cũ dùng gói code A phiên bản 1.0. Sau đó bạn làm một project mới, và gói code A đó ra mắt phiên bản 2.0 với nhiều tính năng hơn. Tuy nhiên, nếu bạn dùng bản 2.0 cho project mới, project cũ sẽ tự động update gói code A lên bản 2.0. Điều này sẽ gây ra không ít thì nhiều sẽ làm cho ứng dụng của bạn hoạt động sai.
 > 
-> Tham khảo : [Packages: The Way Forward for PHP](https://philsturgeon.uk/blog/2012/03/packages-the-way-forward-for-php/) bởi **Phil Sturgeon**
+> Tham khảo : [Packages: The Way Forward for PHP](https://philsturgeon.uk/blog/2012/03/packages-the-way-forward-for-php/) bởi **Phil Sturgeon**
 
 
 ## Bước 1: Cài đặt Composer?
