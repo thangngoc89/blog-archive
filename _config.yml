@@ -51,3 +51,8 @@ social:
 #    share_url:
 #    share_title:
 #    share_link:
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
