@@ -13,9 +13,10 @@ Với công cụ tích hợp của Discourse thì việc sửa/ thêm style tr�
 1. Vào Admin Dashboard
 2. Customize > CSS/HTML
 3. Tạo 1 Style mới (ví dụ Toolbar)
-![toolbar](/content/images/2015/01/toolba.jpg)
+![toolbar](http://khoanguyen.me/content/images/2015/01/toolba.jpg)
 4. Ở CSS và CSS Mobile
-```language-css
+
+```css
 ul#top-navbar-links {
     margin: 0;
     padding: 0;
@@ -48,10 +49,11 @@ ul#top-navbar-links {
     vertical-align: -2px;
 }
 ```
+
 Ở `Header` và `Header Mobile`
 Các bạn nhớ chỉnh lại link cho phù hợp. Muốn dụng icon các bạn có thể xem [Font AweSome](http://fortawesome.github.io/Font-Awesome/icons/) (tích hợp sẵn trong Discourse)
 
-```language-markup
+```markup
 <div id="top-navbar" class="container">
 <ul id="top-navbar-links">
   <li><a href="http://hoidapyhoc.com/">Trang chủ</a></li>
@@ -60,4 +62,3 @@ Các bạn nhớ chỉnh lại link cho phù hợp. Muốn dụng icon các bạ
 </ul>
 </div>
 ```
-
