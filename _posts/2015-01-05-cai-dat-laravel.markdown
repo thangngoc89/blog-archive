@@ -8,45 +8,52 @@ Trong bài viết này, mình sẽ hướng dẫn các bạn tạo một project
 
 ## 1. Chuẩn bị
 
-– Composer (các bạn có thể xem hướng dẫn cài đặt chi tiết [tại đây](http://khoanguyen.me/quan-li-cac-thu-vien-php-voi-composer/ "Quản lí các thư viện PHP với Composer")).
+– Composer [(xem hướng dẫn)](http://khoanguyen.me/quan-li-cac-thu-vien-php-voi-composer/ "Quản lí các thư viện PHP với Composer")).
 
 – Một webserver với :
 
-- PHP >= 5.4
-- MCrypt PHP Extension
+-- PHP >= 5.4
+-- MCrypt PHP Extension
 
 Một localhost chạy PHP chắc chắn là không thể thiếu đối với các bạn đã biết qua PHP cơ bản.
 
-Nếu các bạn chưa cài, hãy cài vào máy trước khi tiếp tục. Cá nhân mình hay sử dụng WampServer. Các bạn hãy vào [trang chủ](http://www.wampserver.com/en/) để tải và cài đặt như một ứng dụng Windows bình thường.
+Nếu các bạn chưa cài, hãy cài vào máy trước khi tiếp tục. Cá nhân mình hay sử dụng WampServer. Các bạn hãy vào [trang chủ](http://www.wampserver.com/en/) để tải và cài đặt như một ứng dụng Windows bình thường.
 
 
 ## 2. Cài đặt Laravel
 
 Mở `CommandPrompt` lên tại thư mục gốc của localhost (với WampServer là thư mục `www`, các server khác có thể là `htdocs`, `public`, …). Gõ lệnh sau
-```
+
+```bash
 composer create-project laravel/laravel laravelproject --prefer-dist
 ```
+
 Composer sẽ tự động tải và cài đặt Laravel kèm với các thành phần đi kèm vào thư mục `laravelproject` (các bạn có thể đổi tên thư mục này tùy ý)
 
 Mở trình duyệt lên truy cập vào địa chỉ [http://localhost/laravelproject/public](http://localhost/laravelproject/public) . Nếu thấy hình bên dưới là bạn đã cái đặt thành công Laravel. (Để tiện cho việc lập trình, các bạn hãy tạo một Virtual Host với tên miền như `laravel.dev`)
 
-[![laravel-welcome](http://ghost.khoanguyen.me/content/images/2015/01/laravel-welcome.png)](http://ghost.khoanguyen.me/content/images/2015/01/laravel-welcome.png)
+![laravel-welcome](http://ghost.khoanguyen.me/content/images/2015/01/laravel-welcome.png)
 
 
 ## 3. Cấu hình
 
-
 ### Cấu hình cơ bản
 
 Chuyển vào thư mục Laravel
+
 `cd laravelproject`
+
 Gõ lệnh sau để tạo một key ngâu nhiên trong app/config/app.php (giúp mã hóa session và các thông tin khác)
-`php artisan key:generate`
+
+```bash
+php artisan key:generate
+```
+
 Mở file `app/config/app.php`, ở đây có một số mục bạn cần chú ý như :
 
 `app.debug` bật debug chi tiết giúp bạn dễ dàng kiểm soát lỗi. Nếu giá trị `false` thì chỉ có một thông báo ngắn với lỗi 500 được xuất ra (Internal Servel Error)
 
-```language-php
+```php
 'timezone' => 'Asia/Ho_Chi_Minh'
 ```` 
 (Chỉnh thành giờ Việt Nam)
@@ -70,6 +77,7 @@ Lưu ý: `mod_rewrite` phải được bật trong Apache thì Pretty URL mới 
 #### Nginx
 
 Thêm thông tin sau vào file `nginx.conf` (lưu ý, đây không phải cấu hình hoàn chỉnh dành cho Nginx)
+
 ```
 location / { 
 	try_files $uri $uri/ /index.php?$query_string; 
@@ -83,21 +91,18 @@ Laravel Eloquent được xây dựng trên PDO nên hỗ trợ nhiều loại d
 
 * Mục `app.default` có nghĩa là database được Laravel sử dụng mặc định
 * Mục `app.connections` : cấu hình các kết nối. Bạn hãy tạo 1 database mới rồi nhập các thông số phù hợp vào. Ở đây mình chọn `mysql` là mặc định và cấu hình:
-```language-php
+
+```php
 'mysql' => array(
-			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'laravel',
-			'username'  => 'root',
-			'password'  => '',
-			'charset'   => 'utf8',
-			'collation' => 'utf8_unicode_ci',
-			'prefix'    => '',
+	'driver'    => 'mysql',
+	'host'      => 'localhost',
+	'database'  => 'laravel',
+	'username'  => 'root',
+	'password'  => '',
+	'charset'   => 'utf8',
+	'collation' => 'utf8_unicode_ci',
+	'prefix'    => '',
 ),
 ```
 
 Xong rồi đó. Chào mừng bạn đến với Laravel.
-
- 
-
-
