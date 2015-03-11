@@ -2,59 +2,62 @@
 layout: post
 title: Cài đặt Wine chạy các ứng dụng Windows trên Ubuntu
 date: 2014-11-16 13:31:45.000000000 -05:00
+tags: vps,wine,ubuntu
 ---
 
-<div class="toc_wrap_right toc_transparent no_bullets" id="toc_container">Contents
-
-- [Mở đầu](#M_u)
-- [Yêu cầu:](#Yu_cu)
-- [Cài đặt Wine](#Ci_t_Wine)
-- [Cài đặt ứng dụng Windows trên Wine](#Ci_t_ng_dng_Windows_trn_Wine)
-- [Kết luận](#Kt_lun)
-
-</div>
-# <span id="M_u">Mở đầu</span>
+# Mở đầu
 
 Chắc hẳn các bạn ai cũng biết, giá VPS linux thường rẻ hơn VPS Windows (phí bản quyền) nhưng hầu hết các ứng dụng kiếm tiền (cũng như các ứng dụng cơ bản khác) đều chỉ có thể chạy trên Windows. **Wine **ra đời để giải quyết vấn đề này. Trong bài viết này mình sẽ hướng dẫn các bạn cách cài đặt Wine cũng như các ứng dụng Windows trên Wine.
 
 
-# <span id="Yu_cu">Yêu cầu:</span>
+# Yêu cầu:
 
 - 1 VPS mới tinh chạy Ubuntu 14.04 64-bits
 - Tối thiểu 512MB RAM
 - Quyền root của VPS
 - Tham khảo : Các VPS giá rẻ dùng để chạy các ứng dụng kiếm tiền (updating)
 
-
-# <span id="Ci_t_Wine">Cài đặt Wine</span>
+# Cài đặt Wine
 
 - Cập nhật các resposity của Ubuntu
 
 Đây là 1 thao tác các bạn nên sử dụng thường xuyên để đảm bảo cho VPS luôn ở trạng thái bảo mật cao nhất
 
+```
 apt-get update && apt-get upgrade
+```
 
 - Cài đặt nano (nếu chưa) để thuận tiện cho việc sửa file
 
+```
 apt-get install nano
+```
 
 - Cài đặt giao diện người dùng cho Ubuntu. Các bạn kiên nhẫn vì thao tác này tốn khá nhiều thời gian
 
+```
 apt-get install xorg lxde-core tightvncserver
+```
 
 - Cài đặt Wine
 
+```
 apt-get install wine
+```
 
 - Thêm người dùng mới dành cho VNC
 
+```
 adduser vnc
+```
 
 Gõ mật khẩu cho user mới 2 lần
 
 - Kích hoạt VNC
 
+```bash
 tightvncserver :1
+```
 
 Gõ mật khẩu để đăng nhập VNC. Các bạn nên dùng giống với mật khẩu của user vnc luôn cho tiện
 
@@ -64,33 +67,40 @@ tightvncserver -kill :1 nano ~/.vnc/xstartup
 
 - Các bạn thêm các đoạn sau cuối file
 
+```bash
 lxterminal & /usr/bin/lxsession -s LXDE &
+```
 
 - Cuối cùng là khởi đăng lại VPS và đăng nhập vào user vnc với mật khẩu bạn đã tạo ở trên
 
+```
 reboot
+```
 
 - Kích hoạt VNC. Trong đó 800×640 là độ phân giải. Bạn có thể thay đổi nó tùy ý thích (độ phân giải càng cao càng hao tốn tài nguyên)
 
+```bash
 vncserver :1 -geometry 800x640 -depth 16 -pixelformat rgb565
+```
 
 - Các bạn có thể dùng 1 chương trình VNC bất kì để đăng nhập vào VPS của bạn theo địa chỉ 192.68.1.1:1 (thay đúng IP lại cho đúng nha)
 
-<div class="wp-caption aligncenter" id="attachment_59" style="width: 730px">[![Cài đặt Wine trên Ubuntu](http://thangngoc89.github.io/assets/article_images/2015/01/Screenshot_1_o7obkk.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479842/Screenshot_1_o7obkk.jpg)Khoe hàng VPS của mình
+![Cài đặt Wine trên Ubuntu](/assets/article_images/2015/01/Screenshot_1_o7obkk.jpg)
 
-</div>
-# <span id="Ci_t_ng_dng_Windows_trn_Wine">Cài đặt ứng dụng Windows trên Wine</span>
+# Cài đặt ứng dụng Windows trên Wine
 
 Mặc định thì Wine không có sẵn trình duyệt nên các bạn có thể dùng các lệnh sau để tải và cài đặt Firefox:
 
 Vẫn truy cập bằng user vnc gõ lệnh
 
+```bash
 cd Desktop wget -O installFirefox.exe https://download.mozilla.org/?product=firefox-stub&os=win&lang=en-US
+```
 
 Vào VNC các bạn sẽ thấy file installFirefox.exe có sẵn trên Desktop, nhấn phải chọn Wine Windows Program Loader và cài đặt như trên Windows .
 
 
-# <span id="Kt_lun">[![cài đặt firefox trên ubuntu](http://thangngoc89.github.io/assets/article_images/2015/01/Screenshot_2_x7co9t.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479839/Screenshot_2_x7co9t.jpg)Kết luận</span>
+# ![cài đặt firefox trên ubuntu](/assets/article_images/2015/01/Screenshot_2_x7co9t.jpg)
 
 Chỉ với khoảng 10-20 phút, các bạn đã có thể có 1 VPS giá rẻ dành để chạy các ứng dụng Windows.
 

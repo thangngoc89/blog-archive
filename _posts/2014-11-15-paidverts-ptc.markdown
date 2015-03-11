@@ -2,7 +2,7 @@
 layout: post
 title: PaidVerts - Cuộc cách mạng của Paid to click
 date: 2014-11-15 16:44:16.000000000 -05:00
-tags: ptc,paidverts
+tags: ptc,paidverts,mmo
 ---
 
 Thời gian gần đây, dân chơi MMO đang nóng lên với dịch vụ mới là PaidVerts, dịch vụ được mệnh danh là **Cuộc cách mạng của Paid to click **chúng ta hãy cùng tìm hiểu về PaidVerts và cách đầu tư để nhanh chóng đem lại lợi nhuận từ PaidVerts nhé.

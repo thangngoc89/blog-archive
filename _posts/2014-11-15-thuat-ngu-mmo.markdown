@@ -2,6 +2,7 @@
 layout: post
 title: Các thuật ngữ MMO thông dụng nhất
 date: 2014-11-15 20:27:07.000000000 -05:00
+tags: mmo
 ---
 
 Nếu bạn mới bước chân vào việc kiếm tiền online thì chắc hẳn giữa 1 rừng thuật ngữ MMO sẽ làm bạn ngao ngán. Hy vọng bài viết này sẽ giúp bạn phần nào nắm bắt được MMO và tự tin triển khai kế hoạc của riêng mình để kiếm thật nhiều tiền nhé.
