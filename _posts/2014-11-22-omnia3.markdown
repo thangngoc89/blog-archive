@@ -28,7 +28,7 @@ Omina3 là 1 site mới khai trương và còn trong giai đoạn beta cách th�
 
 – Đây là số tiền mình kiếm được sau khi xem 4 video (0.021 Euro)
 
-[![Omnia 3](http://thangngoc89.github.io/assets/article_images/2015/01/Screenshot_11_zh1cgh.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479702/Screenshot_11_zh1cgh.jpg)
+[![Omnia 3](/assets/article_images/2015/01/Screenshot_11_zh1cgh.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479702/Screenshot_11_zh1cgh.jpg)
 
 
 ## Nhược điểm

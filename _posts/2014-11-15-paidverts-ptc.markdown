@@ -23,7 +23,7 @@ Dưới đây là top thành viên có số tiền cao nhất trong 48 giờ g�
 
 Theo kinh nghiệm của bản thân mình thì mỗi ngày nếu làm đúng, các bạn sẽ có $8-10 trong vài tuần dễ dàng.
 
-![paidverts](http://thangngoc89.github.io/assets/article_images/2015/01/paidverts_ecasxo.jpg) Paidverts top 15 mỗi 48 giờ
+![paidverts](/assets/article_images/2015/01/paidverts_ecasxo.jpg) Paidverts top 15 mỗi 48 giờ
 
 Thôi không dài dòng nữa, chúng ta bơi vào chủ đề chính nhé.
 
@@ -35,7 +35,7 @@ Paypal, Payza, Perfect Money, Ego Pay, Solidtrustpay, Bank Wire Tranfer, Western
 # Cách thức tham gia
 
 - Truy cập vào [link này](http://khoanguyen.me/link/paidverts "Đăng kí PaidVerts") và click vào **Create Account** để tạo 1 tài khoản
-- Điền đầy đủ thông tin của bạn. Mình khuyến cáo các bạn nên dùng thông tin thật cùa mình để thuận tiện cho quá trình rút tiền. Nhất là ngày tháng năm sinh, các bạn cần nhớ rõ vì phải có ngày tháng năm sinh mới có thể thực hiện các thao tác liên quan tới tiền trong tài khoản ![paidverts create account](http://thangngoc89.github.io/assets/article_images/2015/01/paidverts-create-account_j4cwvk.jpg)
+- Điền đầy đủ thông tin của bạn. Mình khuyến cáo các bạn nên dùng thông tin thật cùa mình để thuận tiện cho quá trình rút tiền. Nhất là ngày tháng năm sinh, các bạn cần nhớ rõ vì phải có ngày tháng năm sinh mới có thể thực hiện các thao tác liên quan tới tiền trong tài khoản ![paidverts create account](/assets/article_images/2015/01/paidverts-create-account_j4cwvk.jpg)
 - Click **Open Account** là bạn đã có ngay 1 tài khoản PaidVerts để kiếm tiền
 - Xong
 
