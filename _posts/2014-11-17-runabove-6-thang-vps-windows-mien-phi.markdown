@@ -21,7 +21,7 @@ Nhấn vào Now create your account để tiếp tục.
 
 Điền đầy đủ thông tin và nhấn **Create Account **
 
-[![runabove1.2](http://khoanguyen.me/wp-content/uploads/2015/01/runabove1_2_bxhsnt.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/runabove1_2_bxhsnt.jpg)
+[![runabove1.2](http://thangngoc89.github.io/assets/article_images/2015/01/runabove1_2_bxhsnt.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/runabove1_2_bxhsnt.jpg)
 
  
 

@@ -5,7 +5,7 @@ date: 2014-11-16 09:48:08.000000000 -05:00
 ---
 
 
-# [![MultiTools for Paidverts BTCClicks Probux](http://khoanguyen.me/wp-content/uploads/2015/01/Screenshot-2014-11-16-14_33_59_c4qyk2.png)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479846/Screenshot-2014-11-16-14_33_59_c4qyk2.png)
+# [![MultiTools for Paidverts BTCClicks Probux](http://thangngoc89.github.io/assets/article_images/2015/01/Screenshot-2014-11-16-14_33_59_c4qyk2.png)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479846/Screenshot-2014-11-16-14_33_59_c4qyk2.png)
 
 <div class="toc_wrap_right toc_transparent no_bullets" id="toc_container">Contents
 

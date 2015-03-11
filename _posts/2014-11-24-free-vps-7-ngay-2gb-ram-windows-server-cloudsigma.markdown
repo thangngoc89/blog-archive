@@ -2,6 +2,7 @@
 layout: post
 title: Free VPS 7 ngày 2GB RAM Windows Server từ CloudSigma
 date: 2014-11-24 16:46:11.000000000 -05:00
+tags: vps,cloudsigma
 ---
 
 Hiện tại CloudSigma đang có chương trình free trial VPS với các thông số như sau:
@@ -18,7 +19,7 @@ Sau đây mình sẽ hướng dẫn anh em đăng kí trên trang này:
 
 - Vào trang chủ : [https://www.cloudsigma.com/](http://www.oni.vn/eSWcK "CloudSigma HomePage") . Nhấm vào Start My Cloud (tất nhiên)
 
-[![cloudsigma](http://khoanguyen.me/wp-content/uploads/2015/01/1_fmxsy8.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479682/1_fmxsy8.jpg)
+[![cloudsigma](http://thangngoc89.github.io/assets/article_images/2015/01/1_fmxsy8.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479682/1_fmxsy8.jpg)
 
 - Cửa sổ chào mừng của CloudSigma hiện lên, chọn **Create and Start a server **
 
@@ -54,16 +55,16 @@ Sau đây mình sẽ hướng dẫn anh em đăng kí trên trang này:
 - Hoặc là dùng trình VNC bất kì với link trong mục VNC Link, mật khẩu trong VNC Password.
 - Hoặc là Remote Desktop tới Public IP
 
-[![13](http://khoanguyen.me/wp-content/uploads/2015/01/131_cr07m9.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/131_cr07m9.jpg)
+[![13](http://thangngoc89.github.io/assets/article_images/2015/01/131_cr07m9.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/131_cr07m9.jpg)
 
 - Tìm mật khẩu tài khoản mật định: Dù bạn có dùng cách nào thì cũng cần có tài khoản mặc định để đăng nhập vào
 
-- Chuyển qua tab My Drives ở trên cùng (Cùng hàng với My Server). Rê chuột lên VPS của bạn để lấy mật khẩu/tài khoản mặc định ![17](http://khoanguyen.me/wp-content/uploads/2015/01/171_uj8tkb.jpg)
+- Chuyển qua tab My Drives ở trên cùng (Cùng hàng với My Server). Rê chuột lên VPS của bạn để lấy mật khẩu/tài khoản mặc định ![17](http://thangngoc89.github.io/assets/article_images/2015/01/171_uj8tkb.jpg)
 
-- Ở bước này, dù bạn có chọn cách kết nối nào trong 3 cách kết nối phía trên thì cũng giống nhau nhé. Trong hình mình đang dùng **Remote Desktop**<div class="wp-caption aligncenter" id="attachment_204" style="width: 696px">[![cloudsigma](http://khoanguyen.me/wp-content/uploads/2015/01/14_cg0qej.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/14_cg0qej.jpg)
+- Ở bước này, dù bạn có chọn cách kết nối nào trong 3 cách kết nối phía trên thì cũng giống nhau nhé. Trong hình mình đang dùng **Remote Desktop**<div class="wp-caption aligncenter" id="attachment_204" style="width: 696px">[![cloudsigma](http://thangngoc89.github.io/assets/article_images/2015/01/14_cg0qej.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/14_cg0qej.jpg)
 Chọn Next
 
-![cloudsigma](http://khoanguyen.me/wp-content/uploads/2015/01/15_m12czg.jpg)
+![cloudsigma](http://thangngoc89.github.io/assets/article_images/2015/01/15_m12czg.jpg)
 I Agree >> Nhập tên máy vào (gì cũng được) >> Start
 
 ![cloudsigma](http://res.cloudinary.com/khoanguyen/image/upload/v1420479397/16_u89fzz.jpg)

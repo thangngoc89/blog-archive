@@ -76,7 +76,7 @@ vncserver :1 -geometry 800x640 -depth 16 -pixelformat rgb565
 
 - Các bạn có thể dùng 1 chương trình VNC bất kì để đăng nhập vào VPS của bạn theo địa chỉ 192.68.1.1:1 (thay đúng IP lại cho đúng nha)
 
-<div class="wp-caption aligncenter" id="attachment_59" style="width: 730px">[![Cài đặt Wine trên Ubuntu](http://khoanguyen.me/wp-content/uploads/2015/01/Screenshot_1_o7obkk.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479842/Screenshot_1_o7obkk.jpg)Khoe hàng VPS của mình
+<div class="wp-caption aligncenter" id="attachment_59" style="width: 730px">[![Cài đặt Wine trên Ubuntu](http://thangngoc89.github.io/assets/article_images/2015/01/Screenshot_1_o7obkk.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479842/Screenshot_1_o7obkk.jpg)Khoe hàng VPS của mình
 
 </div>
 # <span id="Ci_t_ng_dng_Windows_trn_Wine">Cài đặt ứng dụng Windows trên Wine</span>
@@ -90,7 +90,7 @@ cd Desktop wget -O installFirefox.exe https://download.mozilla.org/?product=fire
 Vào VNC các bạn sẽ thấy file installFirefox.exe có sẵn trên Desktop, nhấn phải chọn Wine Windows Program Loader và cài đặt như trên Windows .
 
 
-# <span id="Kt_lun">[![cài đặt firefox trên ubuntu](http://khoanguyen.me/wp-content/uploads/2015/01/Screenshot_2_x7co9t.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479839/Screenshot_2_x7co9t.jpg)Kết luận</span>
+# <span id="Kt_lun">[![cài đặt firefox trên ubuntu](http://thangngoc89.github.io/assets/article_images/2015/01/Screenshot_2_x7co9t.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479839/Screenshot_2_x7co9t.jpg)Kết luận</span>
 
 Chỉ với khoảng 10-20 phút, các bạn đã có thể có 1 VPS giá rẻ dành để chạy các ứng dụng Windows.
 

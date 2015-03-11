@@ -36,7 +36,7 @@ Bấm like/share để lấy link download bên dưới (Please click like or sh
 3. Mở Firefox lên, đăng nhập vào Omnia
 4. Trong panel của imacros bên tay trái, hãy click chọn file vừa tải về và chờ tiền vào trong tài khoản.
 
-[![how to run imacros](http://khoanguyen.me/wp-content/uploads/2015/01/click2dad_ppq7cz.png)](http://khoanguyen.me/wp-content/uploads/2015/01/click2dad_ppq7cz.png)
+[![how to run imacros](http://thangngoc89.github.io/assets/article_images/2015/01/click2dad_ppq7cz.png)](http://thangngoc89.github.io/assets/article_images/2015/01/click2dad_ppq7cz.png)
 
  
 

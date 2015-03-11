@@ -31,7 +31,7 @@ Thử truy cập vào Bảng điều khiển, bạn sẽ thấy thông báo plug
 
  
 
-[![tắt plugin wordpress 2](http://khoanguyen.me/wp-content/uploads/2015/01/disable-wordpress-plugins-2_dohhca.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/disable-wordpress-plugins-2_dohhca.jpg)
+[![tắt plugin wordpress 2](http://thangngoc89.github.io/assets/article_images/2015/01/disable-wordpress-plugins-2_dohhca.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/disable-wordpress-plugins-2_dohhca.jpg)
 
  
 
@@ -44,7 +44,7 @@ Thử truy cập vào Bảng điều khiển, bạn sẽ thấy thông báo plug
 
 Nhấn chọn nút SQL ở thanh công cụ phía trên.
 
-[![disable-wordpress-plugins-4](http://khoanguyen.me/wp-content/uploads/2015/01/disable-wordpress-plugins-4_yzlefg.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/disable-wordpress-plugins-4_yzlefg.jpg)
+[![disable-wordpress-plugins-4](http://thangngoc89.github.io/assets/article_images/2015/01/disable-wordpress-plugins-4_yzlefg.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/disable-wordpress-plugins-4_yzlefg.jpg)
 
  
 
@@ -52,7 +52,7 @@ Xóa hết các lệnh có sẵn và gõ lệnh sau đây vào khung lệnh
 
 SELECT * FROM wp_options WHERE option_name = 'active_plugins';
 
-[![disable-wordpress-plugins-5](http://khoanguyen.me/wp-content/uploads/2015/01/disable-wordpress-plugins-5_ov7h0r.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/disable-wordpress-plugins-5_ov7h0r.jpg)
+[![disable-wordpress-plugins-5](http://thangngoc89.github.io/assets/article_images/2015/01/disable-wordpress-plugins-5_ov7h0r.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/disable-wordpress-plugins-5_ov7h0r.jpg)
 
 Xóa bỏ hết và ghi nội dung sau đây vào khung đỏ
 

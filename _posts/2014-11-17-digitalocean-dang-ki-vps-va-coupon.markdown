@@ -19,11 +19,11 @@ Rất đơn giản, các bạn hãy vào [trang chủ của DigitalOcean theo li
 
 Click vào nút **Sign Up** ở góc phải
 
-[![Đăng kí DigitalOcean](http://khoanguyen.me/wp-content/uploads/2015/01/dang-ki-digitalocean_m4lnm2.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/dang-ki-digitalocean_m4lnm2.jpg)
+[![Đăng kí DigitalOcean](http://thangngoc89.github.io/assets/article_images/2015/01/dang-ki-digitalocean_m4lnm2.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/dang-ki-digitalocean_m4lnm2.jpg)
 
 Điền email và mật khẩu cho tài khoản
 
-[![dang-ki-digitalocean1](http://khoanguyen.me/wp-content/uploads/2015/01/dang-ki-digitalocean11_umiwdo.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/dang-ki-digitalocean11_umiwdo.jpg)
+[![dang-ki-digitalocean1](http://thangngoc89.github.io/assets/article_images/2015/01/dang-ki-digitalocean11_umiwdo.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/dang-ki-digitalocean11_umiwdo.jpg)
 
 Cuối cùng là bấm **Sign Up.** Bạn sẽ được chuyển thẳng tới trang quản lí của DigitalOcean luôn. Hãy nhớ xác nhận đăng kí qua email trước khi thực hiện bước tiếp theo nhé.
 
@@ -32,11 +32,11 @@ Cuối cùng là bấm **Sign Up.** Bạn sẽ được chuyển thẳng tới
 
 DigitalOcean thường xuyên cung cấp các Promo Code trị giá $10 và $20 cho các tài khoản mới đăng kí. Các bạn hãy chuyển sang phần Billing trong menu bên trái.
 
-[![dangki-digitalocean 2](http://khoanguyen.me/wp-content/uploads/2015/01/dangki-digitalocean-2_h4x7i9.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/dangki-digitalocean-2_h4x7i9.jpg)
+[![dangki-digitalocean 2](http://thangngoc89.github.io/assets/article_images/2015/01/dangki-digitalocean-2_h4x7i9.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/dangki-digitalocean-2_h4x7i9.jpg)
 
 Kéo xuống dưới sẽ có phần nhập PromoCode :
 
-[![digitalocean-25credits](http://khoanguyen.me/wp-content/uploads/2015/01/digitalocean-25credits_sqtkaq.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/digitalocean-25credits_sqtkaq.jpg)
+[![digitalocean-25credits](http://thangngoc89.github.io/assets/article_images/2015/01/digitalocean-25credits_sqtkaq.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/digitalocean-25credits_sqtkaq.jpg)
 
  
 
@@ -56,14 +56,14 @@ DigitalOcean yêu cầu bạn phải nạp tiền với số tiền tối thiể
 
 Để thêm Credit Card thì các bạn nhấn **Add Credit Card** và điền đầy đủ thông tin vào
 
-[![dang-ki-digitalocean3](http://khoanguyen.me/wp-content/uploads/2015/01/dang-ki-digitalocean3_ydzouk.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479961/dang-ki-digitalocean3_ydzouk.jpg)
+[![dang-ki-digitalocean3](http://thangngoc89.github.io/assets/article_images/2015/01/dang-ki-digitalocean3_ydzouk.jpg)](http://res.cloudinary.com/khoanguyen/image/upload/v1420479961/dang-ki-digitalocean3_ydzouk.jpg)
 
 
 ## Tạo VPS mới
 
 DigitalOcean gọi các CloudVPS của mình là các Droplet. Sau khi đã nạp tiền vào tài khoản DigitalOcean. Hãy bấm vào nút **Create** bên trái để bắt đầu tại Droplet
 
-[![dang-ki-digitalocean4](http://khoanguyen.me/wp-content/uploads/2015/01/dang-ki-digitalocean4_svlhcs.jpg)](http://khoanguyen.me/wp-content/uploads/2015/01/dang-ki-digitalocean4_svlhcs.jpg)
+[![dang-ki-digitalocean4](http://thangngoc89.github.io/assets/article_images/2015/01/dang-ki-digitalocean4_svlhcs.jpg)](http://thangngoc89.github.io/assets/article_images/2015/01/dang-ki-digitalocean4_svlhcs.jpg)
 
 Sau đó các bạn nhập thông tin sau:
 
