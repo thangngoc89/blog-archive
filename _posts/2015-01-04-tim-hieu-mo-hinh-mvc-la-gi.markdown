@@ -2,7 +2,9 @@
 layout: post
 title: Mô hình MVC là gì?
 date: 2015-01-04 14:58:21.000000000 -05:00
+tags: php,mvc
 ---
+
 **Nếu bạn là một lập trình viên, nhất là lập trình web, sẽ rất khó để bạn có thể xin được việc nếu không biết mô hình MVC. Trong post này mình sẽ trình bày đến các bạn mô hình MVC là gì theo cách hiểu của mình qua một vài dự án sử dụng MVC?**
 
 ## MVC là gì?
@@ -27,7 +29,7 @@ Giữ nhiệm vụ nhận điều hướng các yêu cầu từ người dùng v
 
 Để giải thích, mình xin dùng 1 ví dụ đơn giản + hình minh họa sau.
 
-{<2>}![Mô hình MVC](http://ghost.khoanguyen.me/assets/article_images/2015/01/mo-hinh-mvc.jpg)
+![Mô hình MVC](/assets/article_images/2015/01/mo-hinh-mvc.jpg)
 
 Khi có một yêu cầu từ phía client gửi đến server, Bộ phận controller có nhiệm vụ nhận yêu cầu, xử lý yêu cầu đó. Và nếu cần, nó sẽ gọi đến phần model, vốn là bộ phần làm việc với Database..
 
@@ -36,7 +38,7 @@ Sau khi xử lý xong, toàn bộ kết quả được đẩy về phần View. 
 
 ## Ưu điểm và nhược điểm của MVC
 
-###1. Ưu điểm
+### 1. Ưu điểm
 
 Thể hiện tính chuyên nghiệp trong lập trình, phân tích thiết kế. Do được chia thành các thành phần độc lập nên giúp phát triển ứng dụng nhanh, đơn giản, dễ nâng cấp, bảo trì..
 
