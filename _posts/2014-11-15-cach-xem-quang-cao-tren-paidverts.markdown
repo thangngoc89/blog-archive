@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: page
 title: Cách xem quảng cáo trên Paidverts
 date: 2014-11-15 17:24:03.000000000 -05:00
 permalink: /cach-xem-quang-cao-tren-paidverts
+tags: paidverts
 ---
 
 Trong bài trước mình đã [Giới thiệu cơ bản về PaidVerts](http://khoanguyen.me/paidverts-ptc/ "PaidVerts – Kiếm từ $1-10/ngày"). Trong bài này mình sẽ tiếp tục hướng dẫn cách xem quảng cáo trên PaidVerts.
