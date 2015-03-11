@@ -56,3 +56,5 @@ gems:
 - jemoji
 - jekyll-redirect-from
 - jekyll-sitemap
+
+permalink: "/:title"
