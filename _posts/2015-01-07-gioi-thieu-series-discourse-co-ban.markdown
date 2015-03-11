@@ -2,6 +2,7 @@
 layout: post
 title: Giới thiệu Series Discourse cơ bản
 date: 2015-01-07 08:30:20.000000000 -05:00
+tags: discourse
 ---
 Discourse là một dự án mã nguồn mở để xây dựng một nền tảng thảo luận online có thể dùng với các mục đích sau :
 
@@ -14,7 +15,7 @@ Mục tiêu của Discourse là trở thành Wordpress trong thế giới mã ng
 Trong series này, mình sẽ hướng dẫn các bạn những phần cơ bản nhất để có một Forum chạy Discourse như cài đặt, cấu hình, các plugin cần thiết,...
 ## Các bài viết có trong Series:
 
-1. [Giới thiệu Discourse](http://khoanguyen.me/gioi-thieu-discourse/)
+1. [Giới thiệu Discourse](/gioi-thieu-discourse/)
 2. Cài đặt Discourse
 3. Cấu hình cần thiết sau khi cài đặt
 4. Một số plugin
