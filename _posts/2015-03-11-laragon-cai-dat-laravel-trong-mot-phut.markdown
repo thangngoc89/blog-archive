@@ -3,6 +3,7 @@ layout: post
 title: ! 'Laragon - Cài đặt Laravel trong 1 phút'
 date:   2015-03-11 20:00:00
 categories: laravel
+description: ! 'Hướng dẫn cài đặt Laragon - Laravel 5/4.2 trong một phút'
 tags: dev
 ---
 
