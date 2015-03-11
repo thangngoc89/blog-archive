@@ -32,7 +32,7 @@ Composer sẽ tự động tải và cài đặt Laravel kèm với các thành 
 
 Mở trình duyệt lên truy cập vào địa chỉ [http://localhost/laravelproject/public](http://localhost/laravelproject/public) . Nếu thấy hình bên dưới là bạn đã cái đặt thành công Laravel. (Để tiện cho việc lập trình, các bạn hãy tạo một Virtual Host với tên miền như `laravel.dev`)
 
-![laravel-welcome](http://khoanguyen.me/content/images/2015/01/laravel-welcome.png)
+![laravel-welcome](/assets/article_images/2015/01/laravel-welcome.png)
 
 
 ## 3. Cấu hình

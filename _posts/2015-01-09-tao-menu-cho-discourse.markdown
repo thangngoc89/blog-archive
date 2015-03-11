@@ -17,7 +17,9 @@ Với công cụ tích hợp của Discourse thì việc sửa/ thêm style tr�
 1. Vào Admin Dashboard
 2. Customize > CSS/HTML
 3. Tạo 1 Style mới (ví dụ Toolbar)
-![toolbar](http://khoanguyen.me/content/images/2015/01/toolba.jpg)
+
+![toolbar](/assets/article_images/2015/01/toolba.jpg)
+
 4. Ở CSS và CSS Mobile
 
 ```css

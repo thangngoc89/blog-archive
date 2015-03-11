@@ -27,7 +27,7 @@ Giữ nhiệm vụ nhận điều hướng các yêu cầu từ người dùng v
 
 Để giải thích, mình xin dùng 1 ví dụ đơn giản + hình minh họa sau.
 
-{<2>}![Mô hình MVC](http://ghost.khoanguyen.me/content/images/2015/01/mo-hinh-mvc.jpg)
+{<2>}![Mô hình MVC](http://ghost.khoanguyen.me/assets/article_images/2015/01/mo-hinh-mvc.jpg)
 
 Khi có một yêu cầu từ phía client gửi đến server, Bộ phận controller có nhiệm vụ nhận yêu cầu, xử lý yêu cầu đó. Và nếu cần, nó sẽ gọi đến phần model, vốn là bộ phần làm việc với Database..
 
