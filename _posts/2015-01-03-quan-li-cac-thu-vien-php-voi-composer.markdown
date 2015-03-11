@@ -2,8 +2,10 @@
 layout: post
 title: Quản lí các thư viện PHP với Composer
 date: 2015-01-03 13:09:22.000000000 -05:00
+tags: php,composer
 ---
-#Composer là gì?
+
+# Composer là gì?
 
 Vài năm trước, nếu bạn có biết đến PHP, chắc hẳn bạn sẽ phải viết lại một mớ code cho các tác vụ cơ bản như xác thực người dùng (đăng nhập/đăng xuất/đăng kí), quản lí database, tích hợp với Amazon S3 …. và nhiều tác vụ cơ bản khác. Khi làm việc với các Framework như [Zend](http://framework.zend.com/), hoặc [Laravel](http://laravel.com/) or [Symfony](http://symfony.com/). Để dùng một thành phần của các framework cũng là một điều hết sức khó nhằn vì bạn phải đọc các class để lấy ra thành phần bạn thích (ví dụ như trong các project không dùng Laravel, mình luôn tích hợp Eloquent ORM để dễ dàng thao tác với database).
 
@@ -22,16 +24,16 @@ Cách quản lí này không phải là mới, thực tế thì Composer lấy �
 
 – Chuyển tới thư mục project của bạn và gõ lệnh
 
-```
-$ cd /path/to/my/project 
-$ curl -s http://getcomposer.org/installer | php
+```bash
+cd /path/to/my/project 
+curl -s http://getcomposer.org/installer | php
 ```
 
 Phiên bản composer mới nhất sẽ được tải về máy bạn.
 
 Để kiểm tra hãy gõ
 
-```
+```bash
 php composer.phar
 ```
 
@@ -39,7 +41,7 @@ Danh sách các lệnh có sẵn sẽ hiển thị. Thật dễ dàng phải kh�
 Tuy nhiên để tiện dùng thì các bạn gõ thêm lệnh sau:
 
 ```bash
-$ sudo mv composer.phar /usr/bin/composer
+sudo mv composer.phar /usr/bin/composer
 ```
 
 Từ nay để sử dụng composer ở bất kì thư mục nào, bạn chỉ cần gõ `composer` Thay vì `php composer.phar`
@@ -130,7 +132,6 @@ echo $slugify->slugify('Hello World!'); // hello-world
 Việc cập nhật rất đơn giản, bạn chỉ cần gõ `composer update` , Composer sẽ tự động cập nhật các package cho bạn. Nếu muốn cập nhật lên các phiên bản mới hơn hoặc các bản release, hãy chỉnh sửa file `composer.json`
 
 **Chú ý: Không bao giờ chạy lệnh** `composer update ` **trong môi trường thực tế (production) mà hãy kiểm tra trên máy để tránh tình trạng không tương thích.**
-
 
 # Kết luận:
 
