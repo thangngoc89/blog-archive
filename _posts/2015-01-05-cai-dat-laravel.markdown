@@ -2,8 +2,12 @@
 layout: post
 title: ! '[Laravel cơ bản] Cài đặt Laravel'
 date: 2015-01-05 19:36:03.000000000 -05:00
+description: ! 'Cài đặt Laravel - Series Laravel cơ bản'
 ---
+# Update 11/03/2015
+Phương pháp cài đặt này không còn được khuyến khích. Các bạn hãy xem cách cài đặt bằng Laragon [tại đây](/laragon-cai-dat-laravel-trong-mot-phut/)
 
+---
 Trong bài viết này, mình sẽ hướng dẫn các bạn tạo một project Laravel mới để chuẩn bị cho việc chinh phục Laravel
 
 ## 1. Chuẩn bị
