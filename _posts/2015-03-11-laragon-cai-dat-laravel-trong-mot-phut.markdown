@@ -89,4 +89,4 @@ Laragon sẽ tự động tạo virtual host với tên miền là tên folder t
 Laragon giúp tiết kiệm rất nhiều thời gian khi làm quen, viết code PHP và Laravel. Hãy trải nghiệm Laragon và chia sẽ với bạn bè nhé.
 
 
-*sắp tới mình sẽ viết 1 serie về cách tạo 1 pastebin (như Github gist)* hãy theo dõi với mình nhé
+*sắp tới mình sẽ viết 1 serie về cách tạo 1 pastebin (như Github gist) hãy đăng kí theo link [http://yhoc.co/nhanbaiviet](http://yhoc.co/nhanbaiviet) để nhận bài viết mới nhé*
