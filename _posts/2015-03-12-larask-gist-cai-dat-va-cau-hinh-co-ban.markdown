@@ -158,5 +158,5 @@ Cuối cùng là add file `_ide_helpers.php` vào cuối file `.gitignore`  đ�
 
 Nếu bạn đọc được đến đây thì bạn đã sẵn sàng để chinh phục Laravel rồi đấy.
 
-Như thường lệ, nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc pull request (PR)
+Như thường lệ, nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc [pull request (PR)](https://github.com/thangngoc89/thangngoc89.github.io/blob/master/_posts/2015-03-12-larask-gist-cai-dat-va-cau-hinh-co-ban.markdown)
 Hãy đăng kí theo dõi qua mail để nhận bài viết mới của blog qua địa chỉ : http://yhoc.co/nhanbaiviet
