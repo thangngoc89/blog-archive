@@ -7,11 +7,12 @@ description: ! 'Hướng dẫn cài đặt Laravel 5 và thiết lập cơ bản
 tags: dev, larask gist
 ---
 
-Đây là bài viết trong [series Larask Gist](/gioi-thieu-series-larask-gist/)
+Đây là bài viết trong [series Larask Gist](/gioi-thieu-series-larask-gist/). 
+Toàn bộ source code của bài viết này bạn có thể xem tại đây: [gist#90aeb9622e](https://github.com/Larask/gist/tree/90aeb9622e40bef232d468a4d028fa20aabb9ab1)
 
 #Cài đặt
 
-Trong series này mình sẽ dùng Laragon để hướng dẫn. Vì vậy nếu bạn nào chưa cài đặt Laragon hãy [cài đặt ngay theo hướng dẫn](/laragon-cai-dat-laravel-trong-mot-phut/).
+Trong series này mình sẽ dùng Laragon để hướng dẫn. Vì vậy nếu bạn nào chưa cài đặt Laragon hãy [cài đặt ngay theo hướng dẫn](/laragon-cai-dat-laravel-trong-mot-phut/). (nếu máy bạn đủ khả năng ảo hóa, hãy sử dụng Homestead thay thế)
 
 Dùng Laragon tạo một project mới tên là `gist`. Chờ để Laragon (thực tế là composer) tải và cài đặt Laravel. Mở trình duyệt và truy cập vào `gist.dev`. Nếu xuất hiện màn hinh chào mừng của Laravel là bạn đã thành công.
 
