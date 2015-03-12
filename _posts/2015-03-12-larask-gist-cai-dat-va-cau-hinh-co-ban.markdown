@@ -8,7 +8,7 @@ tags: dev, larask gist
 ---
 
 Đây là bài viết trong [series Larask Gist](/gioi-thieu-series-larask-gist/). 
-Toàn bộ source code của bài viết này bạn có thể xem tại đây: [gist#90aeb9622e](https://github.com/Larask/gist/tree/90aeb9622e40bef232d468a4d028fa20aabb9ab1)
+Toàn bộ source code của bài viết này bạn có thể xem tại đây: [Larask Gist](https://github.com/Larask/gist/)
 
 #Cài đặt
 
@@ -36,7 +36,7 @@ Từ bây giờ, toàn bộ ứng dụng của chúng ta sẽ có namespace là 
 
 ### Cấu hình các thông số
 
-Ngày nay, git là version control thông dụng. Và bạn sẽ không muốn các thông tin như cấu hình database, mật khẩu, API key được công khai (ví dụ như Github hay Bitbucket). Và bạn cũng không muốn phải sửa các thông số này thường xuyên khi deploy ứng dụng do sự khác nhau giữa các môi trường làm việc (ví dụ local và production).
+Ngày nay, git là version control thông dụng. Và bạn sẽ không muốn các thông tin như cấu hình database, mật khẩu, API key được công khai (ví dụ trên Github hay Bitbucket khi push code). Và bạn cũng không muốn phải sửa các thông số này thường xuyên khi deploy ứng dụng do sự khác nhau giữa các môi trường làm việc (ví dụ local và production).
 
 Laravel tích hợp sẵn `.dotenv` để giúp bạn làm thực hiện việc này dễ dàng nhất. Mỗi mỗi trường sẽ có 1 file `.env` ở thư mục gốc lưu các thông tin quan trọng. 
 
@@ -71,6 +71,8 @@ DB_PASSWORD=secret
 CACHE_DRIVER=file
 SESSION_DRIVER=file
 ```
+
+*Lưu ý: Luôn luôn giữ bí mật APP_KEY của bạn*
 
 Laravel dùng hàm `env('DB_HOST', 'localhost')` để lấy giá trị `DB_HOST` trong file `.env`. Nếu không có giá trị này,  giá trị mặc định là `localhost` sẽ được dùng. Các bạn có thể bỏ trống biến thứ 2 của hàm `env` và khi đó giá trị mặc định trả về sẽ là `null`
 
@@ -125,15 +127,13 @@ composer require barryvdh/laravel-ide-helper --dev
 ```
 Option --dev để composer hiểu chúng ta chỉ cần package này khi develop.
 
-Mở file `config/app.php` thêm vào trước `'Gist\Providers\AppServiceProvider',` trong `providers` array phần tử sau:
+Mở file `'Gist\Providers\AppServiceProvider'` trong method `register()` chúng ta sẽ thêm vào :
 
 ```php
-'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+if ($this->app->environment() == 'local') {
+	$this->app->register('Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider');
+}
 ```
-
-**Lưu ý: ** là tất cả provider của package phải được thêm trước `'Gist\Providers\AppServiceProvider',`
-
-*Quy trình trên đây là quy trình cơ bản khi cài 1 package mới vào Laravel và hầu như đã được nói rõ trong hướng dẫn của từng package trên Github. Sau này mình sẽ bỏ qua phần hướng dẫn chỉ tiết này*
 
 Tiếp tục trong Cmder:
 
