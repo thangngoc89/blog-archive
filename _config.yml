@@ -19,7 +19,7 @@ author_image: "/assets/images/author.jpg"
 
 paginate:	10
 
-url: "http://thangngoc89.github.io" # the base hostname & protocol for your site
+url: "http://khoanguyen.me" # the base hostname & protocol for your site
 baseurl: ""
 
 # social icons and sharing options
