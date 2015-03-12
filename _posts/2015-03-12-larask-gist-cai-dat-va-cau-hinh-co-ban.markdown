@@ -72,7 +72,7 @@ CACHE_DRIVER=file
 SESSION_DRIVER=file
 ```
 
-Laravel dùng hàm `env('DB_HOST', 'localhost')` để lấy giá trị `DB_HOST` trong file `.env`. Nếu không có giá trị này,  giá trị `localhost` sẽ được dùng. Các bạn có thể bỏ trống biến thứ của hàm env và khi đó giá trị mặc định trả về sẽ là `null`
+Laravel dùng hàm `env('DB_HOST', 'localhost')` để lấy giá trị `DB_HOST` trong file `.env`. Nếu không có giá trị này,  giá trị mặc định là `localhost` sẽ được dùng. Các bạn có thể bỏ trống biến thứ 2 của hàm `env` và khi đó giá trị mặc định trả về sẽ là `null`
 
 ```php
 	**
