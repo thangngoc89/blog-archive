@@ -1,0 +1,24 @@
+---
+layout: post
+title: ! 'Migration và Model trong Laravel 5 - Larask Gist'
+date:   2015-03-12 19:00:00
+categories: laravel
+description: ! 'Hướng dẫn tạo và sử dụng migration trong Laravel 5 - Series Larask Gist'
+tags: gist
+---
+
+Đây là bài viết thứ hai trong series [Larask Gist](/gioi-thieu-series-larask-gist/) 
+
+Các bạn có thể xem code của toàn bộ bài viết tại
+
+# Model
+
+Trong [mô hình MVC](/tim-hieu-mo-hinh-mvc-la-gi/) thì Model đóng vai trò giao tiếp với database. Laravel đi kèm với Eloquent, một [ORM](http://yhoc.co/orm-eloquent)  với Active Record Pattern. [(xem chi tiết về các pattern ORM)](http://yhoc.co/active-record-data-mapper) . Trong Active Record Pattern thì mỗi object sẽ đại diện cho một dòng trong table. Điều này làm cho việc tương tác với database dễ hơn bao giờ hết.
+
+Laravel 5 đi kèm với model User mặc định `app/User.php` và class này sẽ đại diện cho User trong toàn bộ ứng dụng của bạn.
+
+# Migration
+
+Bạn quản lí code bằng git như database, một thành phần quan trọng không kém là database thì không được như vậy. Vì vậy migration được tạo ra để quản lí sự thay đổi cấu trúc dữ liệu. Việc sử dụng migration sẽ giúp bạn giảm nhẹ công việc khi deploy ứng dụng.
+
+Lấy ví dụ như một ngày đẹp trời, bạn muốn thêm vào database table `dogs`. Ở localhost, bạn vào phpmyadmin (hay bất cứ công cụ quản lí nào bạn sử dụng, kể cả cli) chạy query tạo ra table `dogs`. Sau khi thêm vào code để sử dụng table mới này. Bạn muốn up code lên 
