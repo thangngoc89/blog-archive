@@ -46,6 +46,6 @@ Larask: Là một nhóm chat của các lập trình viên Laravel Việt Nam. C
 4. 
 
 
-### Nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc pull request (PR): [https://github.com/thangngoc89/thangngoc89.github.io/blob/master/_posts/2015-03-12-gioi-thieu-series-larask-gist.markdown](https://github.com/thangngoc89/thangngoc89.github.io/blob/master/_posts/2015-03-12-gioi-thieu-series-larask-gist.markdown)
+### Nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc [pull request (PR)](https://github.com/thangngoc89/thangngoc89.github.io/blob/master/_posts/2015-03-12-gioi-thieu-series-larask-gist.markdown)
 
 ### Hãy đăng kí theo dõi qua mail để nhận bài viết mới của blog qua địa chỉ : [http://yhoc.co/nhanbaiviet](http://yhoc.co/nhanbaiviet) 
