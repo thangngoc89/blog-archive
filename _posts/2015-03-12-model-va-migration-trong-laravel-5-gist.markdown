@@ -7,7 +7,8 @@ description: ! 'Hướng dẫn tạo và sử dụng migration trong Laravel 5 -
 tags: gist
 ---
 
-Đây là bài viết thứ hai trong series [Larask Gist](/gioi-thieu-series-larask-gist/) 
+Đây là bài viết thứ hai trong series [Larask Gist](/gioi-thieu-series-larask-gist/) .
+
 Các bạn có thể xem code của toàn bộ bài viết tại [github](http://khoanguyen.me/model-va-migration-trong-laravel-5-gist/)
 
 # Model
