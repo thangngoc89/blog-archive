@@ -9,7 +9,7 @@ tags: gist
 
 Đây là bài viết thứ hai trong series [Larask Gist](/gioi-thieu-series-larask-gist/) .
 
-Các bạn có thể xem code của toàn bộ bài viết tại [github](http://khoanguyen.me/model-va-migration-trong-laravel-5-gist/)
+Các bạn có thể xem code của toàn bộ bài viết tại [github](https://github.com/Larask/gist/tree/d3e5e96139fce98e028834035bb41759fd49b62e)
 
 # Model
 
