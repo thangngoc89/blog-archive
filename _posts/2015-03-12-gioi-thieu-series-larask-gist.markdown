@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ! 'Giới thiệu series Larask Gist'
-date:   2015-03-11 20:00:00
+date:   2015-03-12 13:00:00
 categories: laravel
 description: ! '[Series] Larask Gist - A Laravel 5 Github Clone '
 tags: dev, larask gist
