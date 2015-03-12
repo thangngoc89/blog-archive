@@ -153,7 +153,7 @@ Mở file `composer.json` và sửa `post-update-cmd` giống như bạn dưới
  ]
 ```
 
-Cuối cùng là add file `_ide_helpers.php` vào cuối file `.gitignore`  để cho git không theo dõi file này, tránh các rắc rối về commit/merge về sau.
+Cuối cùng là add file `_ide_helper.php` vào cuối file `.gitignore`  để cho git không theo dõi file này, tránh các rắc rối về commit/merge về sau.
 
 # Kết luận
 
