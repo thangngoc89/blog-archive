@@ -140,4 +140,23 @@ Tiếp tục trong Cmder:
 php artisan ide-helper:generate
 ```
 
-Lệnh trên sẽ tạo file _ide_helpers.php trong thư mục gốc giúp các IDE có thể hiểu được Laravel.  Bạn cần phải chạy lệnh trong mỗi lần 
+Lệnh trên sẽ tạo file _ide_helpers.php trong thư mục gốc giúp các IDE có thể hiểu được Laravel.  Bạn cần phải chạy lệnh trên mỗi lần cài đặt thêm package mới. :awful: .  Nhưng bạn cài đặt package bằng Composer phải không? Hãy đã Composer làm điểu đó cho bạn.
+
+Mở file `composer.json` và sửa `post-update-cmd` giống như bạn dưới (chính xác thứ tự các dòng nhé)
+
+```javascript
+"post-update-cmd":[
+     "php artisan clear-compiled",
+     "php artisan ide-helper:generate",
+     "php artisan optimize"
+ ]
+```
+
+Cuối cùng là add file `_ide_helpers.php` vào cuối file `.gitignore`  để cho git không theo dõi file này, tránh các rắc rối về commit/merge về sau.
+
+# Kết luận
+
+Nếu bạn đọc được đến đây thì bạn đã sẵn sàng để chinh phục Laravel rồi đấy.
+
+Như thường lệ, nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc pull request (PR)
+Hãy đăng kí theo dõi qua mail để nhận bài viết mới của blog qua địa chỉ : http://yhoc.co/nhanbaiviet
