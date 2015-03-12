@@ -8,7 +8,7 @@ tags: gist
 ---
 
 Đây là bài viết thứ hai trong series [Larask Gist](/gioi-thieu-series-larask-gist/) 
-Các bạn có thể xem code của toàn bộ bài viết tại
+Các bạn có thể xem code của toàn bộ bài viết tại [github](http://khoanguyen.me/model-va-migration-trong-laravel-5-gist/)
 
 # Model
 
@@ -188,4 +188,4 @@ Bằng việc sử dụng, kết hợp model và migration trong Laravel, việc
 
 ---
 
-Như thường lệ, nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc pull request (PR) Hãy đăng kí theo dõi qua mail để nhận bài viết mới của blog qua địa chỉ : [http://yhoc.co/nhanbaiviet](http://yhoc.co/nhanbaiviet)
+Như thường lệ, nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc [pull request (PR)](https://github.com/thangngoc89/thangngoc89.github.io/blob/master/_posts/2015-03-12-model-va-migration-trong-laravel-5-gist.markdown) Hãy đăng kí theo dõi qua mail để nhận bài viết mới của blog qua địa chỉ : [http://yhoc.co/nhanbaiviet](http://yhoc.co/nhanbaiviet)
