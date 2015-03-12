@@ -113,5 +113,31 @@ DB::Statement($command)
 ```
 Dùng để chạy một câu query.
 
+### Cài ide-helper package
 
+Để các IDE có thể "hiểu" được những gì chúng ta đang code và có các type hint thì chúng ta cần cài package hỗ trợ. Ở đây mình sẽ dùng [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) . 
 
+Trong Cmder: 
+
+```bash
+composer require barryvdh/laravel-ide-helper --dev
+```
+Option --dev để composer hiểu chúng ta chỉ cần package này khi develop.
+
+Mở file `config/app.php` thêm vào trước `'Gist\Providers\AppServiceProvider',` trong `providers` array phần tử sau:
+
+```php
+'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+```
+
+**Lưu ý: ** là tất cả provider của package phải được thêm trước `'Gist\Providers\AppServiceProvider',`
+
+*Quy trình trên đây là quy trình cơ bản khi cài 1 package mới vào Laravel và hầu như đã được nói rõ trong hướng dẫn của từng package trên Github. Sau này mình sẽ bỏ qua phần hướng dẫn chỉ tiết này*
+
+Tiếp tục trong Cmder:
+
+```bash
+php artisan ide-helper:generate
+```
+
+Lệnh trên sẽ tạo file _ide_helpers.php trong thư mục gốc giúp các IDE có thể hiểu được Laravel.  Bạn cần phải chạy lệnh trong mỗi lần 
