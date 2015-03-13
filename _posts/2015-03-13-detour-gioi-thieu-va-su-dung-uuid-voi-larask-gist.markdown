@@ -152,7 +152,7 @@ Như vậy là chúng ta đã hoàn thành việc sự dụng Uuid trong Gist Mo
 namespace Gist;
 
 use Illuminate\Database\Eloquent\Model;
-use Webpatser\Uuid\Uuid;`
+use Webpatser\Uuid\Uuid;
 
 class UuidModel extends Model {
 
@@ -179,6 +179,7 @@ class Gist extends Model{}
 ```
 
 Chúng ta sửa lại : 
+
 ```php
 <?php
 
