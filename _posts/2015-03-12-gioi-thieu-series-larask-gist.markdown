@@ -34,7 +34,9 @@ Các bạn cần nắm vững các kiến thức PHP căn bản trước khi b�
 
 Toàn bộ code của series này sẽ được public tại [https://github.com/Larask/gist](https://github.com/Larask/gist) dưới giấy phép GNU 2.0 [(chi tiết)](https://github.com/Larask/gist/blob/master/LICENSE.md)
 
-Cuối mỗi bài viết sẽ có hash commit cụ thể để các bạn dễ dàng theo dõi.
+## Screenshot
+
+![larask-home-page](https://cloud.githubusercontent.com/assets/3049054/6648112/7e0bd15a-ca08-11e4-8292-274225758948.png)
 
 Larask: Là một nhóm chat của các lập trình viên Laravel Việt Nam. Các bạn có thể đăng kí tham gia nhóm tại [link này](http://www.larask.com/register).
 
@@ -47,7 +49,6 @@ Larask: Là một nhóm chat của các lập trình viên Laravel Việt Nam. C
 5. Model Relationship
 6. Routing - Controller
 7. View
-
 
 
 ### Nếu bài viết có bất kì sai sót nào, hãy comment bên dưới hoặc [pull request (PR)](https://github.com/thangngoc89/thangngoc89.github.io/blob/master/_posts/2015-03-12-gioi-thieu-series-larask-gist.markdown)
