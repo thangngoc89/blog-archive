@@ -43,9 +43,10 @@ Larask: Là một nhóm chat của các lập trình viên Laravel Việt Nam. C
 1. [Installation and Configuration](http://khoanguyen.me/larask-gist-cai-dat-va-cau-hinh-co-ban)
 2. [Model and Migration](http://khoanguyen.me/model-va-migration-trong-laravel-5-gist/)
 3. [Detour - Let's talk about UUID](http://khoanguyen.me/detour-gioi-thieu-va-su-dung-uuid-voi-larask-gist/)
-4. Database Seeder
-5. Routing - Controller
-6. View
+4. [Database Seeder](http://khoanguyen.me/database-seeder-larask-gist/)
+5. Model Relationship
+6. Routing - Controller
+7. View
 
 
 
