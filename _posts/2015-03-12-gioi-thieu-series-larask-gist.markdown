@@ -24,7 +24,7 @@ Các bạn cần nắm vững các kiến thức PHP căn bản trước khi b�
 
 - Thành viên/ Anonymous có thể truy cập trang chủ và paste bất cứ thứ gì vào khung soạn thảo để tạo Gist.
 - Sau khi lưu Gist, bạn sẽ nhận được link để chia sẽ Gist của bạn.
-- Một Gist sẽ có trạng thái là public/private. Nếu là public gist thì Gist của bạn sẽ hiện ở phần [discover](https://trello.com/b/jdqnSrBd/hoidapyhoc-code), private thì chỉ những người có link mới xem được.
+- Một Gist sẽ có trạng thái là public/private. Nếu là public gist thì Gist của bạn sẽ hiện ở phần [discover](https://gist.github.com/discover), private thì chỉ những người có link mới xem được.
 - Mỗi thành viên sẽ có một trang riêng (dạng như Facebook Timeline) để hiển thị các Gist cá nhân (cũng cáp dụng trang thái public/private tương tự Discover).
 - Trong phạm vi series này, tính năng Fork và version control sẽ không được nhắc đến.
 
