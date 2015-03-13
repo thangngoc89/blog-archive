@@ -4,7 +4,7 @@ title: ! 'Giới thiệu series Larask Gist'
 date:   2015-03-12 13:00:00
 categories: laravel
 description: ! '[Series] Larask Gist - A Laravel 5 Github Clone '
-tags: dev, larask gist
+tags: featured
 ---
 #Giới thiệu
 
@@ -42,9 +42,10 @@ Larask: Là một nhóm chat của các lập trình viên Laravel Việt Nam. C
 
 1. [Installation and Configuration](http://khoanguyen.me/larask-gist-cai-dat-va-cau-hinh-co-ban)
 2. [Model and Migration](http://khoanguyen.me/model-va-migration-trong-laravel-5-gist/)
-3. Detour - Giới thiệu và sử dụng UUID
+3. [Detour - Let's talk about UUID](http://khoanguyen.me/detour-gioi-thieu-va-su-dung-uuid-voi-larask-gist/)
 4. Database Seeder
-5. Routing - Controller - View
+5. Routing - Controller
+6. View
 
 
 
