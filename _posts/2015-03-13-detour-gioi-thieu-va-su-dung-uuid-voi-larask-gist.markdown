@@ -4,7 +4,8 @@ title: ! 'Detour - Giới thiệu và sử dụng UUID'
 date:   2015-03-13 10:00:00
 categories: laravel
 description: ! '[Series] Larask Gist - Sử dụng UUID để bảo vệ những thông tin nhạy cảm của ứng dụng'
-tags: featured
+tags: dev
+image: /assets/article_images/2015-13-03/detour.gif
 ---
 
 Đây là bài viết thứ 3 trong series [Laravel Gist](http://khoanguyen.me/gioi-thieu-series-larask-gist/) . 
