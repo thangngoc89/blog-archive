@@ -162,7 +162,7 @@ class UuidModel extends Model {
 
         static::creating(function ($model) {
 
-            $model->{$model->getKeyName()} = Uuid::generate($model);
+            $model->{$model->getKeyName()} = Uuid::generate(4);
 
         });
     }
