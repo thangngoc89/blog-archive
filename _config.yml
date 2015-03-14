@@ -1,9 +1,9 @@
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 
 # Site settings
-title: "Khoa Nguyen's Blog"
+title: "Khoa Nguyen Blog"
 description: > # this means to ignore newlines until "email:"
    Viết ngẫu hứng - Chủ yếu chuyện công nghệ
 
