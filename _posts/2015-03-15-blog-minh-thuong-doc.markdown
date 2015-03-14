@@ -10,3 +10,5 @@ Không có gì đặc biệt ở đây. Chỉ là 1 list những blog của dev 
 
 1. [Dor.ky - Scott Wilcox](http://dor.ky/) : Laravel, PHP, Js
 2. [Culttt.com - Philip Brown](http://culttt.com/): Laravel, Inspiration design (không thích đọc mục này lắm)
+
+Mọi người thích đọc blog nào? Cùng chia sẽ với mình nhé :D
