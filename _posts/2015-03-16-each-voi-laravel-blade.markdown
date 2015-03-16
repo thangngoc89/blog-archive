@@ -15,7 +15,7 @@ Làm việc với Laravel, khi bạn gửi 1 collection ra view thì có 2 trư�
 
 Đây chắc hẳn là cấu trúc mọi người thường dùng :
 
-```blade
+```
 @if (count($records))
     @foreach ($records as $record)
         @include('record.item', $record)
@@ -27,7 +27,7 @@ Làm việc với Laravel, khi bạn gửi 1 collection ra view thì có 2 trư�
 
 Cấu trúc trên không có gì sai, nhưng mình sẽ giới thiệu một cấu trúc khác, không **messy** như vậy:
 
-```blade
+```
 // record/list.blade.php
 <ul>
     @each('record.item', $records, 'record', 'record.no-items')
