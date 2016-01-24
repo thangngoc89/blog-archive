@@ -5,6 +5,7 @@ date: 2015-04-12 10:00:00
 categories: film
 description: ! 'Game of Thrones Season 5 bị rò rĩ 4 tập đầu tiên trước ngày khởi chiếu'
 tags: got
+draft: true
 ---
 
 ![Game of thrones season 5](http://i.ytimg.com/vi/RgVB8oWUxzo/hqdefault.jpg)
